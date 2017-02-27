@@ -12,20 +12,26 @@ body {
     font-weight: bold;
 }
 
-ul {
+    #menu{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    }
+    
+    ul {
             font-family: Arial, Verdana;
             font-size: 14px;
             margin: 0;
             padding: 0;
             list-style: none;
         }
-        ul li {
+    ul li {
             display: block;
             position: relative;
             float: left;
         }
-        li ul { display: none; }
-        ul li a {
+    li ul { display: none; }
+    ul li a {
             display: block;
             text-decoration: none;
             color: #ffffff;
@@ -36,17 +42,17 @@ ul {
             white-space: nowrap;
         }
 
-        ul li a:hover { background: #617F8A; }
+    ul li a:hover { background: #617F8A; }
         li:hover ul { 
             display: block; 
             position: absolute;
         }
-        li:hover li { 
+    li:hover li { 
             float: none;
             font-size: 11px;
         }
-        li:hover a { background: #617F8A; }
-        li:hover li a:hover { background: #95A9B1; }
+    li:hover a { background: #617F8A; }
+    li:hover li a:hover { background: #95A9B1; }
 
 
 
